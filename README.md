@@ -5,7 +5,7 @@
 ### Configuração do ambiente de desenvolvimento
 
 ```bash
-    pip install --upgrade langchain langchain-google-genai google-generativeai python-dotenv
+pip install --upgrade langchain langchain-google-genai google-generativeai python-dotenv
 ```
 
 ### Configuração da chave de API do AI Studio
@@ -21,3 +21,11 @@ Acessar o link: [AI Studio](https://aistudio.google.com/apikey)
 - Estruturar a saída da resposta com pydantic
 
 - Criar a função para executar a função que inicia o chat com o agente
+
+## Aula 02
+
+### Instalar dependências para criar o RAG
+
+```bash
+pip install --upgrade langchain_community faiss-cpu langchain-text-splitters pymupdf
+```
